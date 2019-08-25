@@ -1,0 +1,23 @@
+{
+  "name": "udemy-vue_chat",
+  "version": "0.0.1",
+  "description": "vue chat with express backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "chat",
+    "vue",
+    "express",
+    "node"
+  ],
+  "author": "zed-chi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0"
+  }
+}
